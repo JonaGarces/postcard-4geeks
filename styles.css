@@ -1,6 +1,8 @@
 * {
-	border: 1px dashed red;
+	font-family: aboreto;
 	min-height: 10px;
+	
+
 }
 body {
 	background: black;
@@ -10,20 +12,27 @@ body {
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	
 }
 .postcard-header {
 	display: flex;
+
 }
 .postcard-header img {
 	width: 50px;
 	height: 50px;
+	padding-right: 5px;
+	padding-top: 5px;
 }
 .postcard-header h1 {
+	font-size: 16px;
 	width: 100%;
 	margin: 0;
+	padding-top: 5px;
 }
 .postcard-body {
 	display: flex;
+	font-size: 13px;
 }
 .body-left p:first-child {
 	margin-top: 0;
@@ -34,8 +43,8 @@ body {
 }
 input {
 	border: none;
-	border-bottom: grey;
-	text-decoration: underline;
+	border-bottom: grey solid;
+	
 }
 .postcard-footer {
 	text-align: center;
